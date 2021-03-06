@@ -1,6 +1,13 @@
 const bloque1 = document.getElementById("bloque1");
 const bloque2 = document.getElementById("bloque2");
 const bloque3 = document.getElementById("bloque3");
+const bloque4 = document.getElementById("bloque4");
+const bloque5 = document.getElementById("bloque5");
+const bloque6 = document.getElementById("bloque6");
+const bloque7 = document.getElementById("bloque7");
+const bloque8 = document.getElementById("bloque8");
+const bloque9 = document.getElementById("bloque9");
+const bloque0 = document.getElementById("bloque0");
 let visor = document.getElementsByClassName("visor");
 const limpiar = document.getElementById("limpiar");
 const suma = document.getElementById("suma");
@@ -27,6 +34,28 @@ bloque2.addEventListener("click", function () {
 
 bloque3.addEventListener("click", function () {
   visor[0].textContent += bloque3.textContent;
+});
+
+bloque4.addEventListener("click", function () {
+  visor[0].textContent += bloque4.textContent;
+});
+bloque5.addEventListener("click", function () {
+  visor[0].textContent += bloque5.textContent;
+});
+bloque6.addEventListener("click", function () {
+  visor[0].textContent += bloque6.textContent;
+});
+bloque7.addEventListener("click", function () {
+  visor[0].textContent += bloque7.textContent;
+});
+bloque8.addEventListener("click", function () {
+  visor[0].textContent += bloque8.textContent;
+});
+bloque9.addEventListener("click", function () {
+  visor[0].textContent += bloque9.textContent;
+});
+bloque0.addEventListener("click", function () {
+  visor[0].textContent += bloque0.textContent;
 });
 
 limpiar.addEventListener("click", function () {
